@@ -1,0 +1,196 @@
+import Img1 from "@/public/corpcomment.png";
+import Img2 from "@/public/rmtdev.png";
+import Img3 from "@/public/wordanalytics.png";
+import { IProjectsData } from "@/types";
+
+export const links = [
+  {
+    id: 1,
+    name: "Home",
+    hash: "#home",
+  },
+  {
+    id: 2,
+    name: "About",
+    hash: "#about",
+  },
+  {
+    id: 3,
+    name: "Projects",
+    hash: "#projects",
+  },
+  {
+    id: 4,
+    name: "Skills",
+    hash: "#skills",
+  },
+
+  {
+    id: 7,
+    name: "Contact",
+    hash: "#contact",
+  },
+] as const;
+
+export const projectsData: IProjectsData[] = [
+  {
+    id: 1,
+    title: "food restaurant",
+    description: "food restaurant using nest and react ",
+    tags: [
+      "React",
+      "Nest.js",
+      "axios",
+      "PostgresSql",
+      "CQRS",
+      "docker",
+      "microservice",
+      "KrakenD API Gateway",
+      "Tailwind",
+      "typeOrm",
+      "TypeScript",
+      "redux toolkit",
+      "use context",
+      "rest api",
+    ],
+    imageUrl: Img1,
+    link: "https://github.com/yamanaliesh92/ResturantsFood",
+  },
+  {
+    id: 2,
+    title: "create a resume",
+    description: " nest and next with graphQl",
+    tags: [
+      "next js",
+      "TypeScript",
+      "Nest.js",
+      "CQRS",
+      "docker",
+      "Tailwind",
+      "prisma",
+      "Graphql",
+      "apolloClient",
+      "apolloServer",
+    ],
+    imageUrl: Img2,
+    link: "https://github.com/yamanaliesh92/resume-in-graphaql",
+  },
+  {
+    id: 3,
+    title: "car shop",
+    description: "car shop using nextjs and nestjs",
+    tags: [
+      "nest js",
+      "Next.js",
+      "Tailwind",
+      "react-query",
+      "kafka",
+      "typeScript",
+      "CQRS",
+      "darkMode",
+      "microservice",
+      "docker",
+      "unit test",
+      "e2e test",
+      "axios",
+      "typeOrm",
+    ],
+
+    imageUrl: Img3,
+    link: "https://github.com/yamanaliesh92/Car-Shop",
+  },
+
+  {
+    id: 4,
+    title: "task managers",
+    description: "tak mangers using nextjs and express",
+    tags: [
+      "express",
+      "Next.js",
+      "Tailwind",
+      "react-query",
+      "next-auth",
+      "e2e test",
+      "typescript",
+      "mongoose",
+      "mongodb",
+      "docker",
+      "unit test",
+      "e2e test",
+      "axios",
+      "typeOrm",
+    ],
+
+    imageUrl: Img3,
+    link: "https://github.com/yamanaliesh92/Car-Shop",
+  },
+
+  {
+    id: 5,
+    title: "facebook",
+    description: "facebook using react and nest js",
+    tags: [
+      "react",
+      "Nest.js",
+      "migration",
+      "swaggerUI",
+      "css",
+      "react-query",
+      "e2e test",
+      "postgresQql",
+      "typescript",
+      "integration test",
+      "react-query",
+      "unit test",
+      "axios",
+      "typeOrm",
+    ],
+
+    imageUrl: Img3,
+    link: "https://github.com/yamanaliesh92/facebookInReactt",
+  },
+
+  {
+    id: 5,
+    title: "portfolio",
+    description: "A portfolio using next js",
+    tags: ["Next.js", "tailwind", "typescript", "Framer Motion"],
+
+    imageUrl: Img3,
+    link: "https://github.com/yamanaliesh92/facebookInReactt",
+  },
+];
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Nest.js",
+  "express",
+  "migration",
+  "Git",
+  "Git Hub",
+  "unit test",
+  "integration test",
+  "e2e test",
+  "styled components",
+  "axios",
+  "react-query",
+
+  "docker",
+  "typeOrm",
+  "Tailwind",
+  "Prisma",
+  "MongoDB",
+  "mongoose",
+  "Redux",
+  "swagger",
+  "ApolloClient",
+  "ApolloServer",
+  "SQl",
+  "No SQl",
+  "Framer Motion",
+] as const;
