@@ -151,13 +151,13 @@ export const projectsData: IProjectsData[] = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "portfolio",
     description: "A portfolio using next js",
     tags: ["Next.js", "tailwind", "typescript", "Framer Motion"],
 
     imageUrl: Img3,
-    link: "https://github.com/yamanaliesh92/facebookInReactt",
+    link: "https://github.com/yamanaliesh92/portfolio",
   },
 ];
 

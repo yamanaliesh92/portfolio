@@ -16,11 +16,6 @@ const Project: FC<IProps> = ({ item }) => {
   });
   return (
     <div
-      // style={{
-      //   scale: scrollYProgress,
-      //   opacity: scrollYProgress,
-      // }}
-      // ref={ref}
       className="group flex cursor-pointer p-3 bg-gray-100 border-black/5 dark:bg-white/10 dark:first-line:hover:bg-white/20 "
       id="projects"
     >
