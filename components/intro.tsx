@@ -23,7 +23,7 @@ const Intro = () => {
           }}
         >
           <Image
-            src={"/car.jpeg"}
+            src={"/me.jpg"}
             alt="al"
             width={192}
             height={192}
