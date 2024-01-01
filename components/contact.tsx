@@ -24,12 +24,10 @@ const Contact = () => {
     >
       <h3 className=" mb-8 text-2xl font-semibold">Contact me</h3>
 
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
+      <p className="  text-black -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          yaman9892xxx@gmail.com
-        </a>{" "}
-        or through this form.
+        <a className="underline text-black">yaman9892xxx@gmail.com</a> or
+        through this form.
       </p>
     </motion.section>
   );

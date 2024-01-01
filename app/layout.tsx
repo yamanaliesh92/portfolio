@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import { Toaster } from "react-hot-toast";
-import Footer from "@/components/footer";
+
 import ThemeContextProvider from "@/context/theme.context";
 import ThemeSwitch from "@/components/theme-switch";
 import { Header } from "@/components";
@@ -32,7 +32,6 @@ export default function RootLayout({
           {children}
           <Toaster position="top-right" />
           <ThemeSwitch />
-          <Footer />
         </ThemeContextProvider>
       </body>
     </html>

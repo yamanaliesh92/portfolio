@@ -16,8 +16,8 @@ const About = () => {
     >
       <h1 className="text-2xl font-bold">About me</h1>
       <p className="mb-3">
-        I am studying a computer engineering I decided to pursue my passion for
-        programming. I enrolled in a coding and learned for one and half year{" "}
+        I am studying a computer engineering . I enrolled in a coding and
+        learned for one and half year{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
