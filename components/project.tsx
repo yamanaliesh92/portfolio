@@ -22,7 +22,7 @@ const Project: FC<IProps> = ({ item }) => {
           {item.description}
         </h1>
         <a
-          className="w-fit h-fit p-4 rounded-lg bg-black dark:bg-white dark:text-white text-gray-400 cursor-pointer my-3"
+          className="w-fit h-fit p-4 rounded-lg bg-black dark:bg-white text-gray-400 cursor-pointer my-3"
           href={item.link}
           target="_blank"
         >

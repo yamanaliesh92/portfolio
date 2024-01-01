@@ -1,16 +1,34 @@
 "use client";
-import { skillsData } from "@/lib/data";
+import { LibrariesData, skillsData } from "@/lib/data";
 import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
     <div
       id="skills"
-      className="max-w-[45rem] mb-28 mt-10 text-center leading-8 scroll-mt-28 "
+      className="max-w-[45rem] h-fit mb-28 mt-10 text-center leading-8 scroll-mt-28 "
     >
       <h3 className="text-2xl font-semibold mb-3">My Skills</h3>
+
+      <div className="my-3 flex flex-col ">
+        {skillsData.map((skill) => {
+          return (
+            <div className="flex flex-col border-b gray-400">
+              <h1 className="font-bold text-[20px] text-red-500">
+                {skill.name}
+              </h1>
+              <h4> {skill.title} </h4>
+            </div>
+          );
+        })}
+      </div>
+
+      <h3 className="text-2xl font-semibold mb-3">
+        some of the libraries I used{" "}
+      </h3>
+
       <ul className="flex flex-wrap justify-center text-lg text-gray-800 gap-2">
-        {skillsData.map((item) => {
+        {LibrariesData.map((item) => {
           return (
             <motion.div
               key={item}

@@ -16,15 +16,15 @@ const About = () => {
     >
       <h1 className="text-2xl font-bold">About me</h1>
       <p className="mb-3">
-        I am studying a computer engineering . I enrolled in a coding and
-        learned for one and half year{" "}
+        I am studying a computer engineering
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is . I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        developer.My email is{" "}
+        <span className="underline font-semibold">yaman9892xxx@gmail.com</span>
       </p>
 
       <p>
