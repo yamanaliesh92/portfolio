@@ -23,7 +23,7 @@ const About = () => {
         is . I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.My email is{" "}
-        <span className="underline font-semibold">yaman9892xxx@gmail.com</span>
+        <span className="underline font-semibold">alyamanaliesh@gmail.com</span>
       </p>
 
       <p>
