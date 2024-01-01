@@ -13,8 +13,8 @@ const Skills = () => {
       <div className="my-3 flex flex-col ">
         {skillsData.map((skill) => {
           return (
-            <div className="flex flex-col border-b gray-400">
-              <h1 className="font-bold text-[20px] text-red-500">
+            <div className="flex flex-col border-b gray-400 mb-6">
+              <h1 className="font-bold text-start  text-[20px] text-red-500">
                 {skill.name}
               </h1>
               <h4> {skill.title} </h4>
@@ -24,7 +24,7 @@ const Skills = () => {
       </div>
 
       <h3 className="text-2xl font-semibold mb-3">
-        some of the libraries I used{" "}
+        Some Of The Libraries I Used
       </h3>
 
       <ul className="flex flex-wrap justify-center text-lg text-gray-800 gap-2">

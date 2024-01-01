@@ -215,40 +215,46 @@ export const skillsData = [
   },
   {
     id: 8,
+    name: "Krakend:",
+    title:
+      "used krakend to build high performant web services gateway, utilizing its validation, security measures and data manipulation capabilities",
+  },
+  {
+    id: 9,
     name: "CQRS:",
     title:
       "Implemented Command Query Responsibility Segregation (CQRS) to enhance system scalability and separation of concerns, allowing distinct handling of commands and queries for optimized performance in complex application architectures.",
   },
 
   {
-    id: 9,
+    id: 10,
     name: "Kafka:",
 
     title:
       " I use kafka mainly as broker between multiple microservices for streaming message/data and events, I am familiar with kafka setup as well as integration ",
   },
   {
-    id: 10,
+    id: 11,
     name: "Docker and docker compose:",
     title:
       "Utilized Docker for containerization, enabling seamless deployment and isolation of applications, and Docker Compose to orchestrate multi-container environments, streamlining development, testing, and deployment workflows for increased efficiency in project management.",
   },
   {
-    id: 11,
+    id: 12,
     name: "Git/Github/Gitlab:",
     title:
       "Proficient in Git for version control, employing branching, merging, and collaboration workflows, and experienced with GitHub for efficient code hosting, collaboration, and managing repositories, ensuring organized and collaborative development processes",
   },
 
   {
-    id: 12,
+    id: 13,
     name: "SQL (postgresql TypeORM/prisma) : ",
 
     title:
       "I used mainly postgresSQL via TypeORM and prisma but i am also comfortable executing raw queries when needed.",
   },
   {
-    id: 13,
+    id: 14,
     name: "No SQL (mongodb via mongoose/TypeORM):",
 
     title:

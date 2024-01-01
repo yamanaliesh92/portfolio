@@ -41,8 +41,8 @@ const Intro = () => {
       >
         <span className="font-bold">Hello, I'm AlYaman Aliesh.</span> I'm a{" "}
         <span className="font-bold">full-stack engineer </span> with{" "}
-        <span className="font-bold">one and half year </span> of experience. I
-        enjoy building{" "}
+        <span className="font-bold"> year </span> of experience. I enjoy
+        building{" "}
         <span className="italic">performant webapps and web services</span>
       </motion.h1>
 
@@ -54,20 +54,12 @@ const Intro = () => {
         }}
         className="flex items-center justify-center gap-2 px-3"
       >
-        <Link
-          href={"#contact"}
-          className="flex items-center bg-gray-900  dark:bg-white/10 text-yellow-50 rounded-full px-7 py-3 gap-4 hover:scale-110 hover:mr-2"
-        >
-          Contact to
-          <BsArrowRight />
-        </Link>
-
         <a
           href={"https://github.com/yamanaliesh92"}
           target="_blank"
-          className=" flex items-center bg-white text-gray-900  dark:text-white/60 rounded-full  dark:bg-white/10  p-4 gap-2"
+          className=" flex items-center justify-center w-[80px] bg-gray-300  text-gray-900  dark:text-white/60 rounded-full  dark:bg-white/10  p-4 gap-2"
         >
-          <AiFillGithub />
+          <AiFillGithub size={20} />
         </a>
       </motion.div>
     </section>

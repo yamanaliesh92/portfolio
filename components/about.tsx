@@ -16,7 +16,6 @@ const About = () => {
     >
       <h1 className="text-2xl font-bold">About me</h1>
       <p className="mb-3">
-        I am studying a computer engineering
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
