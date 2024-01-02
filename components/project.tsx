@@ -33,7 +33,7 @@ const Project: FC<IProps> = ({ item }) => {
             return (
               <div
                 key={tag}
-                className="dark:bg-gray-100 dark:text-black bg-black text-white h-[29px]  w-[80px] uppercase  flex justify-center rounded-full  items-center text-white p-[6px]  text-[8px]"
+                className="dark:bg-gray-100 dark:text-black bg-black text-white h-[29px]  w-[80px] uppercase  flex justify-center rounded-full  items-center p-[6px]  text-[8px]"
               >
                 {tag}
               </div>

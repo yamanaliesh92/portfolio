@@ -97,7 +97,7 @@ export const projectsData: IProjectsData[] = [
   {
     id: 4,
     title: "Task Manager",
-    description: "task mangers using nextjs and express",
+    description: "task mangers using next js and express",
     tags: [
       "express",
       "Next.js",
