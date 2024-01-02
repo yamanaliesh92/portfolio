@@ -29,7 +29,7 @@ export const links = [
 export const projectsData: IProjectsData[] = [
   {
     id: 1,
-    title: "Food Restaurant",
+    title: "Foody",
 
     description: "food restaurant using nest and react ",
     tags: [
@@ -52,7 +52,7 @@ export const projectsData: IProjectsData[] = [
   },
   {
     id: 2,
-    title: "Create a Resume",
+    title: "Resume Creator",
     description: " nest and next with graphQl",
     tags: [
       "next js",
@@ -96,8 +96,8 @@ export const projectsData: IProjectsData[] = [
 
   {
     id: 4,
-    title: "Task Managers",
-    description: "tak mangers using nextjs and express",
+    title: "Task Manager",
+    description: "task mangers using nextjs and express",
     tags: [
       "express",
       "Next.js",
@@ -120,7 +120,7 @@ export const projectsData: IProjectsData[] = [
 
   {
     id: 5,
-    title: "Facebook",
+    title: "Facebook Clone",
     description: "facebook using react and nest js",
     tags: [
       "react",
@@ -145,7 +145,7 @@ export const projectsData: IProjectsData[] = [
 
   {
     id: 6,
-    title: "portfolio",
+    title: "Portfolio",
     description: "A portfolio using next js",
     tags: ["Next.js", "tailwind", "typescript", "Framer Motion"],
 
@@ -155,18 +155,18 @@ export const projectsData: IProjectsData[] = [
 ];
 
 export const LibrariesData = [
-  "jwt",
-  "migration",
-  "jest",
-  "cypress",
-  "styled components",
-  "react-query",
+  "Jwt",
+  "Migration",
+  "Jest",
+  "Cypress",
+  "Styled Components",
+  "React-Query",
   "Tailwind",
   "Prisma",
-  "mongoose",
+  "Mongoose",
   "Redux",
   "ApolloClient",
-  "axios",
+  "Axios",
   "Framer Motion",
 ] as const;
 

@@ -17,7 +17,7 @@ const Skills = () => {
               <h1 className="font-bold text-start  text-[20px] text-red-500">
                 {skill.name}
               </h1>
-              <h4> {skill.title} </h4>
+              <h4 className="mb-6"> {skill.title} </h4>
             </div>
           );
         })}
