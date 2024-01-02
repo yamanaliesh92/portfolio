@@ -13,11 +13,11 @@ const Skills = () => {
       <div className="my-3 flex flex-col ">
         {skillsData.map((skill) => {
           return (
-            <div className="flex flex-col border-b gray-400 mb-6">
+            <div className="flex flex-col border-b gray-400 mb-4">
               <h1 className="font-bold text-start  text-[20px] text-red-500">
                 {skill.name}
               </h1>
-              <h4 className="mb-6"> {skill.title} </h4>
+              <h4 className="mb-4"> {skill.title} </h4>
             </div>
           );
         })}
