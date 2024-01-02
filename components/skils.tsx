@@ -10,14 +10,14 @@ const Skills = () => {
     >
       <h3 className="text-2xl font-semibold mb-3">My Skills</h3>
 
-      <div className="my-3 flex flex-col ">
+      <div className="my-3 flex flex-col justify-start ">
         {skillsData.map((skill) => {
           return (
-            <div className="flex flex-col border-b gray-400 mb-4">
-              <h1 className="font-bold text-start  text-[20px] text-red-500">
+            <div className="flex flex-col  border-b gray-400 mb-4">
+              <h1 className="font-bold text-start   text-[20px] text-red-500">
                 {skill.name}
               </h1>
-              <h4 className="mb-4"> {skill.title} </h4>
+              <h4 className="mb-4 text-start"> {skill.title} </h4>
             </div>
           );
         })}

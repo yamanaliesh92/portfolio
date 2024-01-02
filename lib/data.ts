@@ -248,14 +248,14 @@ export const skillsData = [
 
   {
     id: 13,
-    name: "SQL (postgresql TypeORM/prisma) : ",
+    name: "SQL (postgresql with TypeORM/prisma) : ",
 
     title:
       "I used mainly postgresSQL via TypeORM and prisma but i am also comfortable executing raw queries when needed.",
   },
   {
     id: 14,
-    name: "No SQL (mongodb via mongoose/TypeORM):",
+    name: "No SQL (mongodb with mongoose/TypeORM):",
 
     title:
       "I am familiar with mongodb and mongoose and have used them in multiple express projects",
