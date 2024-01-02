@@ -41,7 +41,7 @@ const Intro = () => {
       >
         <span className="font-bold">Hello, I'm AlYaman Aliesh.</span> I'm a{" "}
         <span className="font-bold">full-stack engineer </span> with{" "}
-        <span className="font-bold"> 1.5 year </span> of experience. I enjoy
+        <span className="font-bold"> 1,5 year </span> of experience. I enjoy
         building{" "}
         <span className="italic">performant webapps and web services</span>
       </motion.h1>

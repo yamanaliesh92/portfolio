@@ -28,12 +28,12 @@ const Project: FC<IProps> = ({ item }) => {
           {item.description}
         </h1>
 
-        <ul className=" grid grid-cols-3    sm:grid-cols-4 md:grid-cols-5 gap-2 mt-4">
+        <ul className=" grid grid-cols-3  sm:grid-cols-4 md:grid-cols-5 gap-2 mt-4">
           {item.tags.map((tag) => {
             return (
               <div
                 key={tag}
-                className="bg-black h-[28px]  w-[80px] uppercase  flex justify-center rounded-full  items-center text-white p-[6px]  text-[0.6rem] dark:text-white/70"
+                className="bg-black h-[29px]  w-[80px] uppercase  flex justify-center rounded-full  items-center text-white p-[6px]  text-[0.6rem] dark:text-white/70"
               >
                 {tag}
               </div>
